@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NewThemeYear</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Charm|Permanent+Marker|Shadows+Into+Light|Thasadith" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+    <div id='theme-header'>
+      <h1>new[theme]year</h1>
+    </div>
+
+        <%= yield %>
+  </body>
+</html>
